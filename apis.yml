@@ -1,7 +1,15 @@
 aid: pathspot
 name: PathSpot
-description: PathSpot is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PathSpot Technologies provides a health-and-safety operating system for restaurants, commercial
+  kitchens, food manufacturers, cafeterias, and hospitality venues. Its flagship HandScanner uses
+  light-based spectroscopy to detect harmful contaminants on employees' hands in about two seconds
+  after washing and drying. Alongside the scanner, PathSpot's SafetySuite bundles real-time
+  temperature monitoring (PowerTemp), digital task management (PowerTasks), and food labeling
+  (PowerLabels), rolling the data up into the SafetySuite Hub dashboard with analytics, automated
+  compliance reporting, email reports, text alerts, and optional API-based data integration. PathSpot
+  markets API integration as a data-delivery feature of SafetySuite but publishes no public developer
+  portal, API reference, OpenAPI, or SDKs as of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/pathspot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://pathspot.com/wp-content/uploads/2020/09/PathSpot-Logo-RGB-Horizontal-1.0.0-1-e1600793653493.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Food Safety
+- Hand Hygiene
+- Restaurant Technology
+- Food Service
+- Compliance
+- Temperature Monitoring
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://pathspot.com/
+- type: DomainSecurity
+  url: security/pathspot-domain-security.yml
+- type: Blog
+  url: https://pathspot.com/blog/
+- type: Support
+  url: https://pathspot.com/faq/
+- type: Contact
+  url: https://pathspot.com/contact/
+- type: PrivacyPolicy
+  url: https://pathspot.com/privacy-policy/
+- type: TermsOfService
+  url: https://pathspot.com/terms-of-service/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
