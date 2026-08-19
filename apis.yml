@@ -29,7 +29,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://pathspot.com/wp-content/uploads/2020/09/PathSpot-Logo-RGB-Horizontal-1.0.0-1-e1600793653493.png
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
